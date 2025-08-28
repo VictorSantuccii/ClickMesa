@@ -95,3 +95,31 @@ export interface Restaurant {
     observacoes?: string
     restauranteId: string
   }
+
+export interface ItemEstoque {
+  id: string;
+  nome: string;
+  quantidade: number;
+  unidade: string;
+  validade?: Date;
+  fornecedor_id?: string;
+  restauranteId: string;
+}
+
+export interface Fornecedor {
+  id: string;
+  nome: string;
+  contato: string;
+  produto_fornecido: string;
+  prazo_entrega: string;
+  restauranteId: string;
+}
+
+export interface Relatorio {
+  id: string;
+  data: Date;
+  tipo: string;
+  gerado_por: string;
+  detalhes: any;
+  restauranteId: string;
+}
