@@ -64,7 +64,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Button asChild>
-                <Link href="/menu/qr-scanner">Acessar Cardápio</Link>
+                <Link href="client/menu/qr-scanner">Acessar Cardápio</Link>
               </Button>
             </CardContent>
           </Card>
@@ -81,7 +81,7 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <Button asChild>
-                <Link href="/reservation">Fazer Reserva</Link>
+                <Link href="client/menu/reservation">Fazer Reserva</Link>
               </Button>
             </CardContent>
           </Card>
